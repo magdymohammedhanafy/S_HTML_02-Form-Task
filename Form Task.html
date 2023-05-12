@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="descreption" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Form</title>
+    </head>
+    <body style="background-color: rgb(17, 44, 44);" >
+        <form action="">
+        <fieldset style="background-color: aqua;" >
+            <legend style="background-color: aqua;">Personal Data</legend>
+            <div >Your Name</div>
+            <fieldset style="background: aquamarine;"> 
+               <div >
+                <label for="first">First Name  : </label>
+                <input style="margin-left: 14px;" type="text" name="first" id="first" placeholder="ex.Magdy">
+               </div>
+               <div >
+                    <label for="second">Second Name:</label>
+                    <input type="text" name="second" id="second" placeholder="ex.Mohammed">
+               </div>
+            </fieldset>
+            <div>
+                <label for="phone">Your Phone:</label>
+                <input style="margin-left: 4px;"  type="tel" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input style="margin-left: 36px;" type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="passowrd">Passowrd:</label>
+                <input style="margin-left: 18px;" type="password" name="passowrd" id="passowrd">
+            </div>
+            <div>
+                <label for="repassowrd">re-Passowrd:</label>
+                <input  type="password" name="repassowrd" id="repassowrd">
+            </div>
+            <div>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="degree" id="student">
+                <label for="student">Student</label>
+            </div>
+            <div>
+                <input type="checkbox" name="degree" id="graduated">
+                <label for="graduated">Graduated</label>
+            </div>
+            <br>
+            <div>
+                <label for="university:">University</label>
+                <select name="university" id="university">
+                    <option value="1">AUC</option>
+                    <option value="2">Alexandria</option>
+                    <option value="3">Cairo</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+        </fieldset>
+        </form>
+    </body>
